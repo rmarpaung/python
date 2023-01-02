@@ -54,4 +54,4 @@ else:
     print("Satuan asal tidak diketahui")
     exit()
 
-print("Hasil konversi %s %s adalah %s %s" % (value, origin, result, target))
+print("Hasil konversi %s%s %s adalah %s%s %s" % (value, '\u00B0', origin, result, '\u00B0', target))
